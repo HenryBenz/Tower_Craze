@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05867D3234FC8143AB0509FA /* hazard.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA1B14AFA1A1E6E3CAC222D /* hazard.png */; };
+		09DB76FA65ED35026B70AD7C /* floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC472F199D87FA9EDB99CE3 /* floor.png */; };
+		115ED93A2103519020037935 /* TowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7009BF9FAE407AC9C55088CD /* TowerApp.swift */; };
+		340DFF25F46A5612F6487B44 /* TowerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD324D8B904B97D2877D5E57 /* TowerScene.swift */; };
+		34F9548BBA641B6219ABBEA1 /* GameProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919620303D649D71E2892317 /* GameProgress.swift */; };
+		3D1B83600E3DA34CAD67835F /* SiteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA750D80C2CC9DCA6A4C3470 /* SiteTheme.swift */; };
+		4D4D40E6C95FBD60F18B543A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F370B96F4E1ED27979B336 /* Store.swift */; };
+		5563E964E9B671F4D72A925C /* brick_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE220FAB377D263C71ED54B /* brick_0.png */; };
+		65949AE6D33154CDF7C46A19 /* menu_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E724EBCECB79E5F721D3B4 /* menu_logo.png */; };
+		65D75D8653237B2FB7F98DD1 /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D9043DECDAD982C8295181 /* slot.png */; };
+		660B7C437706711B330508E8 /* dust.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8D6C48E2198B013F5BE156 /* dust.png */; };
+		6B38362602DD13BF7CA618BD /* brick_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F6149A2FAD331B98E80531 /* brick_5.png */; };
+		6B711BF9E72B2CEB485C91CD /* tnt.png in Resources */ = {isa = PBXBuildFile; fileRef = C09F05E41CB58658BCB8EB4B /* tnt.png */; };
+		6E1E8E3045D1054D84978DE3 /* roof.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF3B6C7C2003A2D29457471 /* roof.png */; };
+		79C80C068439F76BC3A46BFF /* brick_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC832D9E60D8958600FC027 /* brick_2.png */; };
+		90CC08A70E308F86771FF680 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418651850764BA9CBE63C08D /* Haptics.swift */; };
+		9276F3999F59EE68CFB852F1 /* chip.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E15EAB8A99F88C6FC89087 /* chip.png */; };
+		97057DD6CB1BE63674FEBE81 /* brick_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3FFBD78C7BB05EAE6100F0 /* brick_1.png */; };
+		99273749898E21D0FD900F28 /* TowerBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739F74E8601402A1C51B4872 /* TowerBoard.swift */; };
+		998A7F3158FE784C197D633F /* helmet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D0042CAFDC50C12A23E36FF /* helmet.png */; };
+		A001967DCF7DC7DE4991E232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C7530F56165EB048010E40 /* Assets.xcassets */; };
+		ABE668B51C73153EB02049B3 /* SiteScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705807EBD0A27F8BD9ADD761 /* SiteScreens.swift */; };
+		B09A14B70CC4D16257F17380 /* crane_hook.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DECFD59F21D385886FB54C /* crane_hook.png */; };
+		BBB6764F3BCE66A5FE0D108A /* bg_site.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAC95ABACD0F124C02ED494 /* bg_site.png */; };
+		CFFA221C2A3A4BD785C1B20C /* brick_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 49551D3B803F0AC332CA33F9 /* brick_3.png */; };
+		D176612C9A1E001146140BC2 /* brick_4.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0EF720692BD0361430827A /* brick_4.png */; };
+		DF59987B713010C99C8BFC39 /* cement.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE3CFC2CB1465D0EFC945F9 /* cement.png */; };
+		E342D3BBD7BC055F86CAC2DA /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8E0B2BFF01170A83FE7B8 /* Sound.swift */; };
+		E7ED0765E2FAF8A50C4C8EDE /* FX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E74BF98F770413E3443FC38 /* FX.swift */; };
+		EE27648E4727D1EFF51CC6C4 /* crane_arm.png in Resources */ = {isa = PBXBuildFile; fileRef = 95564A69224F71A21A5727FE /* crane_arm.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05C7530F56165EB048010E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08F370B96F4E1ED27979B336 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		0BE3CFC2CB1465D0EFC945F9 /* cement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cement.png; sourceTree = "<group>"; };
+		0C5B64775C2ABCE2126BE749 /* TowerCraze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerCraze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0042CAFDC50C12A23E36FF /* helmet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helmet.png; sourceTree = "<group>"; };
+		1EAC95ABACD0F124C02ED494 /* bg_site.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_site.png; sourceTree = "<group>"; };
+		1FC832D9E60D8958600FC027 /* brick_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_2.png; sourceTree = "<group>"; };
+		20DECFD59F21D385886FB54C /* crane_hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crane_hook.png; sourceTree = "<group>"; };
+		3EC472F199D87FA9EDB99CE3 /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor.png; sourceTree = "<group>"; };
+		418651850764BA9CBE63C08D /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		49551D3B803F0AC332CA33F9 /* brick_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_3.png; sourceTree = "<group>"; };
+		5AE8E0B2BFF01170A83FE7B8 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		7009BF9FAE407AC9C55088CD /* TowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerApp.swift; sourceTree = "<group>"; };
+		705807EBD0A27F8BD9ADD761 /* SiteScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteScreens.swift; sourceTree = "<group>"; };
+		739F74E8601402A1C51B4872 /* TowerBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerBoard.swift; sourceTree = "<group>"; };
+		73D9043DECDAD982C8295181 /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot.png; sourceTree = "<group>"; };
+		7DE220FAB377D263C71ED54B /* brick_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_0.png; sourceTree = "<group>"; };
+		919620303D649D71E2892317 /* GameProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProgress.swift; sourceTree = "<group>"; };
+		93E724EBCECB79E5F721D3B4 /* menu_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_logo.png; sourceTree = "<group>"; };
+		94F6149A2FAD331B98E80531 /* brick_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_5.png; sourceTree = "<group>"; };
+		95564A69224F71A21A5727FE /* crane_arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crane_arm.png; sourceTree = "<group>"; };
+		9E74BF98F770413E3443FC38 /* FX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FX.swift; sourceTree = "<group>"; };
+		AA0EF720692BD0361430827A /* brick_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_4.png; sourceTree = "<group>"; };
+		BD324D8B904B97D2877D5E57 /* TowerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerScene.swift; sourceTree = "<group>"; };
+		C09F05E41CB58658BCB8EB4B /* tnt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tnt.png; sourceTree = "<group>"; };
+		C6E15EAB8A99F88C6FC89087 /* chip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip.png; sourceTree = "<group>"; };
+		CA8D6C48E2198B013F5BE156 /* dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dust.png; sourceTree = "<group>"; };
+		CBA1B14AFA1A1E6E3CAC222D /* hazard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hazard.png; sourceTree = "<group>"; };
+		DA750D80C2CC9DCA6A4C3470 /* SiteTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteTheme.swift; sourceTree = "<group>"; };
+		DCF3B6C7C2003A2D29457471 /* roof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roof.png; sourceTree = "<group>"; };
+		EE3FFBD78C7BB05EAE6100F0 /* brick_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7068E31112CB1201A9B9244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B36BFEB9600400F32B8D63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1A5F458639DF62A28DDF7F1 /* Art */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F08E47A3DEED4882C09B846 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				705807EBD0A27F8BD9ADD761 /* SiteScreens.swift */,
+				DA750D80C2CC9DCA6A4C3470 /* SiteTheme.swift */,
+				7009BF9FAE407AC9C55088CD /* TowerApp.swift */,
+				739F74E8601402A1C51B4872 /* TowerBoard.swift */,
+				BD324D8B904B97D2877D5E57 /* TowerScene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		48C4CF9D8A1A6300C54DE698 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9E74BF98F770413E3443FC38 /* FX.swift */,
+				919620303D649D71E2892317 /* GameProgress.swift */,
+				418651850764BA9CBE63C08D /* Haptics.swift */,
+				5AE8E0B2BFF01170A83FE7B8 /* Sound.swift */,
+				08F370B96F4E1ED27979B336 /* Store.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7B6D273B8F4784411B71C9AB /* TowerCraze */ = {
+			isa = PBXGroup;
+			children = (
+				48C4CF9D8A1A6300C54DE698 /* Common */,
+				1F08E47A3DEED4882C09B846 /* Game */,
+				17B36BFEB9600400F32B8D63 /* Resources */,
+				05C7530F56165EB048010E40 /* Assets.xcassets */,
+			);
+			path = TowerCraze;
+			sourceTree = "<group>";
+		};
+		B1A5F458639DF62A28DDF7F1 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				1EAC95ABACD0F124C02ED494 /* bg_site.png */,
+				7DE220FAB377D263C71ED54B /* brick_0.png */,
+				EE3FFBD78C7BB05EAE6100F0 /* brick_1.png */,
+				1FC832D9E60D8958600FC027 /* brick_2.png */,
+				49551D3B803F0AC332CA33F9 /* brick_3.png */,
+				AA0EF720692BD0361430827A /* brick_4.png */,
+				94F6149A2FAD331B98E80531 /* brick_5.png */,
+				0BE3CFC2CB1465D0EFC945F9 /* cement.png */,
+				C6E15EAB8A99F88C6FC89087 /* chip.png */,
+				95564A69224F71A21A5727FE /* crane_arm.png */,
+				20DECFD59F21D385886FB54C /* crane_hook.png */,
+				CA8D6C48E2198B013F5BE156 /* dust.png */,
+				3EC472F199D87FA9EDB99CE3 /* floor.png */,
+				CBA1B14AFA1A1E6E3CAC222D /* hazard.png */,
+				0D0042CAFDC50C12A23E36FF /* helmet.png */,
+				93E724EBCECB79E5F721D3B4 /* menu_logo.png */,
+				DCF3B6C7C2003A2D29457471 /* roof.png */,
+				73D9043DECDAD982C8295181 /* slot.png */,
+				C09F05E41CB58658BCB8EB4B /* tnt.png */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		E4B486F127AAE0CA09BEEF26 = {
+			isa = PBXGroup;
+			children = (
+				7B6D273B8F4784411B71C9AB /* TowerCraze */,
+				EE0002310256CDC882F48BE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0002310256CDC882F48BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B64775C2ABCE2126BE749 /* TowerCraze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C463BCFF598555EDF3A0C780 /* TowerCraze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C0902DB637A1757E37A843 /* Build configuration list for PBXNativeTarget "TowerCraze" */;
+			buildPhases = (
+				B332D9037C7D1FEC8DF2D85A /* Sources */,
+				A7068E31112CB1201A9B9244 /* Frameworks */,
+				DC215A3201C79B520C035E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerCraze;
+			productName = TowerCraze;
+			productReference = 0C5B64775C2ABCE2126BE749 /* TowerCraze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F5BFF62154696DDB3147DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C463BCFF598555EDF3A0C780 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6A6BAF357D1A4F91C1208CD1 /* Build configuration list for PBXProject "TowerCraze" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4B486F127AAE0CA09BEEF26;
+			productRefGroup = EE0002310256CDC882F48BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C463BCFF598555EDF3A0C780 /* TowerCraze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC215A3201C79B520C035E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB6764F3BCE66A5FE0D108A /* bg_site.png in Resources */,
+				5563E964E9B671F4D72A925C /* brick_0.png in Resources */,
+				97057DD6CB1BE63674FEBE81 /* brick_1.png in Resources */,
+				79C80C068439F76BC3A46BFF /* brick_2.png in Resources */,
+				CFFA221C2A3A4BD785C1B20C /* brick_3.png in Resources */,
+				D176612C9A1E001146140BC2 /* brick_4.png in Resources */,
+				6B38362602DD13BF7CA618BD /* brick_5.png in Resources */,
+				DF59987B713010C99C8BFC39 /* cement.png in Resources */,
+				9276F3999F59EE68CFB852F1 /* chip.png in Resources */,
+				EE27648E4727D1EFF51CC6C4 /* crane_arm.png in Resources */,
+				B09A14B70CC4D16257F17380 /* crane_hook.png in Resources */,
+				660B7C437706711B330508E8 /* dust.png in Resources */,
+				09DB76FA65ED35026B70AD7C /* floor.png in Resources */,
+				05867D3234FC8143AB0509FA /* hazard.png in Resources */,
+				998A7F3158FE784C197D633F /* helmet.png in Resources */,
+				65949AE6D33154CDF7C46A19 /* menu_logo.png in Resources */,
+				6E1E8E3045D1054D84978DE3 /* roof.png in Resources */,
+				65D75D8653237B2FB7F98DD1 /* slot.png in Resources */,
+				6B711BF9E72B2CEB485C91CD /* tnt.png in Resources */,
+				A001967DCF7DC7DE4991E232 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B332D9037C7D1FEC8DF2D85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ED0765E2FAF8A50C4C8EDE /* FX.swift in Sources */,
+				34F9548BBA641B6219ABBEA1 /* GameProgress.swift in Sources */,
+				90CC08A70E308F86771FF680 /* Haptics.swift in Sources */,
+				E342D3BBD7BC055F86CAC2DA /* Sound.swift in Sources */,
+				4D4D40E6C95FBD60F18B543A /* Store.swift in Sources */,
+				ABE668B51C73153EB02049B3 /* SiteScreens.swift in Sources */,
+				3D1B83600E3DA34CAD67835F /* SiteTheme.swift in Sources */,
+				115ED93A2103519020037935 /* TowerApp.swift in Sources */,
+				99273749898E21D0FD900F28 /* TowerBoard.swift in Sources */,
+				340DFF25F46A5612F6487B44 /* TowerScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27A3C23A001EEB2836453841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D0C8C214FA93B403E78C3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tower Craze";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tower.Craze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		940367BE284C441C89A67BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5EFBFE01296ABAAD23B0381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tower Craze";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tower.Craze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A6BAF357D1A4F91C1208CD1 /* Build configuration list for PBXProject "TowerCraze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940367BE284C441C89A67BFE /* Debug */,
+				27A3C23A001EEB2836453841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C0902DB637A1757E37A843 /* Build configuration list for PBXNativeTarget "TowerCraze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EFBFE01296ABAAD23B0381 /* Debug */,
+				6D0C8C214FA93B403E78C3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F5BFF62154696DDB3147DAA /* Project object */;
+}
